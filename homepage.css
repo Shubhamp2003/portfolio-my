@@ -150,37 +150,37 @@ color: gray;
     font-size: 10px;
 }
 
-#thirdsection{
+.thirdsection{
     max-width: 80vw;
     margin: auto;
     height: 80vh;
 }
 
-#thirdsection h1{
+.thirdsection h1{
     font-size: 1.7rem;
 }
 
-#thirdsection div{
+.thirdsection div{
     margin-top: 40px;
 }
 
-#thirdsection div p{
+.thirdsection div p{
     display: flex;
     text-align: justify;
 }
 
-#fourthsection{
+.fourthsection{
     max-width: 80vw;
     margin: auto;
     height: 80vh;
     /* background: linear-gradient(to right, #110a37 0%, #2a0e41 100%); */
 }
 
-#fourthsection h1{
+.fourthsection h1{
     font-size: 1.7rem;
 }
 
-#fourthsection .contact-form{
+.fourthsection .contact-form{
     background: rgb(50, 50, 50);
     width: 750px;
     height: 400px;
@@ -188,7 +188,7 @@ color: gray;
     border-radius: 20px;
 }
 
-#fourthsection .contact-form .top-control{
+.fourthsection .contact-form .top-control{
     display: flex;
     background: rgb(69, 69, 69);
     width: 100%;
@@ -241,7 +241,7 @@ color: gray;
     background: white;
 }
 
-#fourthsection .contact-form .main-form{
+.fourthsection .contact-form .main-form{
     display: flex;
     .leftside{
         width: 50%;
@@ -417,21 +417,21 @@ footer .footer-rights{
         height: 1050px;
     }
 
-    #thirdsection{
+    .thirdsection{
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 750px;
     }
 
-    #fourthsection{
+    .fourthsection{
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 750px;
     }
 
-    /* #fourthsection .contact-form{
+    /* .fourthsection .contact-form{
         display: flex;
         background: rgb(50, 50, 50);
         width: 450px;
