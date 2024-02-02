@@ -91,6 +91,10 @@ main hr{
     border-radius: 10px;
 }
 
+.text-white{
+    color: white;
+}
+
 .purple{
     color: rgb(153, 86, 215);
 }
@@ -154,7 +158,6 @@ color: gray;
     max-width: 80vw;
     margin: auto;
     height: 80vh;
-    display: flex;
 }
 
 .thirdsection h1{
@@ -162,6 +165,7 @@ color: gray;
 }
 
 .thirdsection div{
+    display: flex;
     margin-top: 40px;
 }
 
@@ -174,7 +178,6 @@ color: gray;
     max-width: 80vw;
     margin: auto;
     height: 80vh;
-    display: flex;
     /* background: linear-gradient(to right, #110a37 0%, #2a0e41 100%); */
 }
 
@@ -183,6 +186,7 @@ color: gray;
 }
 
 .fourthsection .contact-form{
+    display: flex;
     background: rgb(50, 50, 50);
     width: 750px;
     height: 400px;
