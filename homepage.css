@@ -55,7 +55,7 @@ main hr{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 90px 0;
+    margin: 130px 0;
 }
 
 .firstsection > div{
@@ -142,22 +142,22 @@ color: gray;
 .vertical-title{
     position: relative;
     top: 70px;
-    width: 150px;
-    font-size: 15px;
+    width: 300px;
+    font-size: 17px;
 }
 
 .vertical-desc{
     position: relative;
     top: 80px;
     color: gray;
-    width: 150px;
-    font-size: 10px;
+    width: 300px;
+    font-size: 14px;
 }
 
 .thirdsection{
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
+    height: 60vh;
 }
 
 .thirdsection h1{
@@ -165,13 +165,13 @@ color: gray;
 }
 
 .thirdsection div{
-    display: flex;
+    /* display: flex; */
     margin-top: 40px;
 }
 
 .thirdsection div p{
     display: flex;
-    text-align: justify;
+    text-align: left;
 }
 
 .fourthsection{
@@ -185,8 +185,8 @@ color: gray;
 }
 
 .fourthsection .contact-form{
-    background: linear-gradient(to right, #eaee80 0%, #571a89 100%);
-    /* background: rgb(50, 50, 50); */
+    /* background: linear-gradient(to right, #eaee80 0%, #571a89 100%); */
+    background: rgb(22, 23, 56);
     width: 750px;
     height: 400px;
     margin: 50px auto;
@@ -248,15 +248,22 @@ color: gray;
 
 .fourthsection .contact-form .main-form{
     display: flex;
+
     .leftside{
         width: 50%;
-        margin: 50px;
+        margin: 100px 50px;
         text-align: center;
-        color: #a47809;
+        color: #4d4e97;
+        h1{
+            margin-bottom: 20px;
+        }
+        a{
+            margin: 10px;
+        }
     }
     .rightside{
         width: 50%;
-        margin: 30px;
+        margin: 80px 30px;
         align-items: center;
         .information{
             width: 100%;
@@ -285,14 +292,14 @@ color: gray;
             width: 50px;
             background: none;
             border: none;
-            font-size: 15px;
+            font-size: 17px;
             font-weight: bold;
-            color: #560b7c;
+            color: #53506d;
             margin: 30px 120px;
         }
         button:hover{
             cursor: pointer;
-            color: #8608a6;
+            color: #7243c9;
         }
 
     }
@@ -424,14 +431,14 @@ footer .footer-rights{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 1050px;
+        height: 600px;
     }
 
     .thirdsection{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 750px;
+        height: auto;
     }
 
     .fourthsection{
@@ -441,14 +448,45 @@ footer .footer-rights{
         height: 750px;
     }
 
-    /* .fourthsection .contact-form{
+    .fourthsection .contact-form{
         display: flex;
-        background: rgb(50, 50, 50);
-        width: 450px;
-        height: 600px;
+        flex-direction: row;
+        background: rgb(22, 23, 56);
+        width: 90%;
+        height: 500px;
         margin: 50px auto;
         border-radius: 20px;
-    } */
+    }
+
+    .fourthsection .contact-form .main-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .fourthsection .contact-form .main-form .leftside{
+        width: 100%;
+    }
+
+    .fourthsection .contact-form .main-form .leftside h1{
+        margin: 20px;
+    }
+
+    .fourthsection .contact-form .main-form .rightside{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .fourthsection .contact-form .main-form .rightside .information{
+        width: 100%;
+    }
+
+    .fourthsection .contact-form .main-form .rightside button{
+        margin: 50px auto;
+        width: 100%;
+    }
 
     body{
         min-width: fit-content;
